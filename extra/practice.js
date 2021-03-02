@@ -89,4 +89,33 @@ console.log(`i am abdullah noman.
 i am learning javaScript at NBICT LAB
 for 5 years`);
 
- 
+ const country = 'Bangladesh';
+ const population = 160;
+ const continent = 'asia';
+ console.log(country,population,continent);
+
+ const isIland = true;
+ const language = 'bangla';
+ console.log (`Type of 'country' is ${typeof (population)}.`);
+
+ let firstHalf = population/2;
+ let secondHalf = population - firstHalf ;
+  console.log (`each half will contain ${secondHalf} million people.`)
+
+  let newPop = population+1;
+  console.log(`if we add 1 to ${population} then we will get ${newPop}.`)
+
+  let finPop = 6;//in million
+  let condition1 = population>finPop
+  if(condition1){
+    console.log(`our population is greater than finlands population`);
+  }else{
+    console.log(`our population is less than finlands population`);
+  }
+let averagePop = 33;
+let condition2 = averagePop>population;
+ if(condition2){
+   console.log(`our population is greater than average population`);
+ }else{
+   console.log(`our population is less than average population`);
+ }
